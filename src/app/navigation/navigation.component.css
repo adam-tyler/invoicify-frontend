@@ -1,0 +1,9 @@
+@media (max-width: 1000px) {
+    .navbar-brand {
+        padding: 2px 15px;
+    }
+
+    .navbar-brand img {
+        width: 45px;
+    }
+}
