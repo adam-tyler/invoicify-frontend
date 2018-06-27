@@ -18,6 +18,8 @@ import { StatusMessageComponent } from './status-message/status-message.componen
 import { BillingRecordComponent } from './billing-record/billing-record.component';
 import { UserComponent } from './user/user.component';
 import { UserFormComponent } from './user-form/user-form.component';
+import { FlatFeeBillingRecordControllerComponent } from './flat-fee-billing-record-controller/flat-fee-billing-record-controller.component';
+import { RateBasedBillingRecordFormComponent } from './rate-based-billing-record-form/rate-based-billing-record-form.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { UserFormComponent } from './user-form/user-form.component';
     StatusMessageComponent,
     BillingRecordComponent,
     UserComponent,
-    UserFormComponent
+    UserFormComponent,
+    FlatFeeBillingRecordControllerComponent,
+    RateBasedBillingRecordFormComponent
   ],
   imports: [
     BrowserModule,

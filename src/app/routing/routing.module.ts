@@ -7,6 +7,8 @@ import { HomeComponent }   from '../home/home.component';
 import { UserComponent } from '../user/user.component';
 import { UserFormComponent } from '../user-form/user-form.component';
 import { BillingRecordComponent } from '../billing-record/billing-record.component';
+import { FlatFeeBillingRecordControllerComponent } from '../flat-fee-billing-record-controller/flat-fee-billing-record-controller.component';
+import { RateBasedBillingRecordFormComponent } from '../rate-based-billing-record-form/rate-based-billing-record-form.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -17,7 +19,9 @@ const routes: Routes = [
   { path: 'user', component: UserComponent},
   { path: 'user/edit/:id', component: UserFormComponent},
   { path: 'user/add', component: UserFormComponent},
-  { path: 'billing-record', component: BillingRecordComponent}
+  { path: 'billing-record', component: BillingRecordComponent},
+  { path: 'billing-record/flat-fee/add', component: FlatFeeBillingRecordControllerComponent},
+  { path: 'billing-record/rate-based/add', component: RateBasedBillingRecordFormComponent}
   
 ];
 
