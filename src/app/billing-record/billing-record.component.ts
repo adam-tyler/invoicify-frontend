@@ -5,7 +5,8 @@ import { MatDialog, MatDialogRef } from '@angular/material';
 @Component({
   selector: 'app-billing-record',
   templateUrl: './billing-record.component.html',
-  styleUrls: ['./billing-record.component.css']
+  styleUrls: ['./billing-record.component.css'],
+  animations: [fadeInAnimation]
 })
 export class BillingRecordComponent implements OnInit {
 
