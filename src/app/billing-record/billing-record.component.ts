@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { DataService } from '../data.service';
 import { MatDialog, MatDialogRef } from '@angular/material';
+import { fadeInAnimation } from '../animations/fade-in.animation';
 
 @Component({
   selector: 'app-billing-record',
