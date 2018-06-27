@@ -19,6 +19,7 @@ import { BillingRecordComponent } from './billing-record/billing-record.componen
 import { UserComponent } from './user/user.component';
 import { UserFormComponent } from './user-form/user-form.component';
 import { FlatFeeBillingRecordControllerComponent } from './flat-fee-billing-record-controller/flat-fee-billing-record-controller.component';
+import { RateBasedBillingRecordFormComponent } from './rate-based-billing-record-form/rate-based-billing-record-form.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FlatFeeBillingRecordControllerComponent } from './flat-fee-billing-reco
     BillingRecordComponent,
     UserComponent,
     UserFormComponent,
-    FlatFeeBillingRecordControllerComponent
+    FlatFeeBillingRecordControllerComponent,
+    RateBasedBillingRecordFormComponent
   ],
   imports: [
     BrowserModule,
