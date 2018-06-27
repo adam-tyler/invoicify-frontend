@@ -18,6 +18,7 @@ import { StatusMessageComponent } from './status-message/status-message.componen
 import { BillingRecordComponent } from './billing-record/billing-record.component';
 import { UserComponent } from './user/user.component';
 import { UserFormComponent } from './user-form/user-form.component';
+import { FlatFeeBillingRecordControllerComponent } from './flat-fee-billing-record-controller/flat-fee-billing-record-controller.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { UserFormComponent } from './user-form/user-form.component';
     StatusMessageComponent,
     BillingRecordComponent,
     UserComponent,
-    UserFormComponent
+    UserFormComponent,
+    FlatFeeBillingRecordControllerComponent
   ],
   imports: [
     BrowserModule,
